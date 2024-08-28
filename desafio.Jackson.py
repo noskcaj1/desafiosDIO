@@ -1,3 +1,5 @@
+#Detalhes do código: Ler o README
+
 # Constantes
 LIMITE_SAQUES = 3
 LIMITE_SAQUE_VALOR = 500
