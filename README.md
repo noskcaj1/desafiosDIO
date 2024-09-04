@@ -1,4 +1,6 @@
-# 1-desafioDIO - Jackson Miranda
+# Desafios DIO NTTData - Jackson Miranda
+
+## 1º Desafio:
 
 Programa de Banco em Python
 
@@ -75,7 +77,7 @@ O programa roda continuamente até que o usuário escolha sair.
 
 
 
-# 2º Desafio DIO
+## 2º Desafio DIO
 
 Visto que toda conta só pode ser aberta com cadastro de um CPF e todo usuario tem que possuir um CPF e endereço, decidi remover a opção de criação de usuários no menu principal e integrar essa lógica ao fluxo de criação de contas. Agora, ao tentar criar uma nova conta, o sistema irá verificar se o CPF já está cadastrado. Se o CPF não estiver cadastrado, o sistema perguntará se o usuário deseja criar um novo usuário. Caso o CPF já esteja cadastrado, o sistema confirmará se deseja continuar com a criação da nova conta ou cancelar a operação.
 
