@@ -82,3 +82,13 @@ O programa roda continuamente até que o usuário escolha sair.
 Visto que toda conta só pode ser aberta com cadastro de um CPF e todo usuario tem que possuir um CPF e endereço, decidi remover a opção de criação de usuários no menu principal e integrar essa lógica ao fluxo de criação de contas. Agora, ao tentar criar uma nova conta, o sistema irá verificar se o CPF já está cadastrado. Se o CPF não estiver cadastrado, o sistema perguntará se o usuário deseja criar um novo usuário. Caso o CPF já esteja cadastrado, o sistema confirmará se deseja continuar com a criação da nova conta ou cancelar a operação.
 
 ![image](https://github.com/user-attachments/assets/9b3844f5-f987-409f-b36e-cbbd2da55daf)
+
+
+
+## 3º Desafio DIO
+
+No Desafio 3, removi o cadastro de cliente, adequei o sistema que agora permite o cadastro de múltiplas contas para cada CPF, e cada cliente deve ter, no mínimo, uma conta (so deixei habilitado a opção cadastrar nova conta). 
+Ao realizar uma transação, o programa verifica se o cliente tem mais de uma conta. Se tiver, ele lista as contas para o cliente escolher em qual deseja realizar a operação. Se houver apenas uma conta, a transação é realizada diretamente. 
+Também é possível criar novas contas, listar todas as contas e sair do sistema a qualquer momento. O código inclui classes que representam clientes, contas e transações, e um histórico de transações é mantido para cada conta. 
+
+
